@@ -1,17 +1,6 @@
 // ----------------------------------------------------------------------
 
 export const paths = {
-  // Marketing
-  marketing: {
-    root: '/marketing',
-    services: '/marketing/services',
-    caseStudies: '/marketing/case-studies',
-    caseStudy: `/marketing/case-study`,
-    posts: '/marketing/posts',
-    post: `/marketing/post`,
-    about: '/marketing/about',
-    contact: '/marketing/contact',
-  },
   // Travel
   travel: {
     root: '/travel',
@@ -34,35 +23,6 @@ export const paths = {
     about: '/career/about',
     contact: '/career/contact',
   },
-  // E-learning
-  eLearning: {
-    root: '/e-learning',
-    courses: '/e-learning/courses',
-    course: `/e-learning/course`,
-    posts: '/e-learning/posts',
-    post: `/e-learning/post`,
-    about: '/e-learning/about',
-    contact: '/e-learning/contact',
-  },
-  // E-commerce
-  eCommerce: {
-    root: '/e-commerce',
-    products: '/e-commerce/products',
-    product: `/e-commerce/product`,
-    cart: '/e-commerce/cart',
-    checkout: `/e-commerce/checkout`,
-    orderCompleted: '/e-commerce/order-completed',
-    wishlist: `/e-commerce/wishlist`,
-    compare: `/e-commerce/compare`,
-    account: {
-      root: `/e-commerce/account`,
-      personal: `/e-commerce/account/personal`,
-      wishlist: `/e-commerce/account/wishlist`,
-      vouchers: `/e-commerce/account/vouchers`,
-      orders: `/e-commerce/account/orders`,
-      payment: `/e-commerce/account/payment`,
-    },
-  },
   // Auth
   loginCover: '/auth/login-cover',
   loginBackground: '/auth/login-background',
@@ -72,34 +32,6 @@ export const paths = {
   registerIllustration: '/auth/register-illustration',
   forgotPassword: '/auth/forgot-password',
   verify: '/auth/verify',
-  // Common
-  maintenance: '/maintenance',
-  comingsoon: '/coming-soon',
-  pricing01: '/pricing-01',
-  pricing02: '/pricing-02',
-  payment: '/payment',
-  support: '/support',
-  page404: '/404',
-  page500: '/error',
-  // Components
-  components: {
-    root: '/components',
-    animate: '/components/animate',
-    carousel: '/components/carousel',
-    countUp: '/components/count-up',
-    form: '/components/form-validation',
-    icons: '/components/icons',
-    image: '/components/image',
-    label: '/components/label',
-    lightbox: '/components/lightbox',
-    markdown: '/components/markdown',
-    megaMenu: '/components/mega-menu',
-    navigation: '/components/navigation-bar',
-    scroll: '/components/scroll',
-    scrollProgress: '/components/scroll-progress',
-    player: '/components/player',
-    textMaxLine: '/components/text-max-line',
-  },
   // Others
   pages: '/pages',
   docs: 'https://zone-docs.vercel.app',
